@@ -56,7 +56,35 @@
   justify-content: center;
   gap: 40px;
 }
-
+.albums {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.but {
+  padding: 8px;
+  gap: 5px;
+}
+.ss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+.id {
+  font-size: 25px;
+}
+.name {
+  font-size: 13px;
+}
+.h2 {
+  color: black;
+}
+.ll {
+  color: blue;
+}
 .user,
 .post {
   width: 300px;

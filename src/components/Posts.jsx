@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import AddPost from "./AddPost";
+// import AddPost from "./AddPost";
 
 const Posts = () => {
   const [posts, setPosts] = useState([]);
@@ -19,7 +19,7 @@ const Posts = () => {
 
   return (
     <div>
-      <AddPost fetchData={fetchData} />
+      {/* <AddPost fetchData={fetchData} /> */}
       <ul>
         {posts.map((post) => (
           <li key={post.id}>{post.title}</li>

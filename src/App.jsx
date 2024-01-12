@@ -1,16 +1,15 @@
 // import React from "react";
 import "./App.css";
-// import DocumentTitle from "./components/DocumentTitle";
-import Posts from "./components/Posts";
-import Todos from "./components/Todos";
+// import Posts from "./components/Posts";
+// import Todos from "./components/Todos";
 import Users from "./components/Users";
 
 const App = () => {
   return (
     <div>
       {/* <DocumentTit  le /> */}
-      <Posts />
-      <Todos />
+      {/* <Posts /> */}
+      {/* <Todos /> */}
       <Users />
     </div>
   );
