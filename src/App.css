@@ -40,3 +40,35 @@
 .read-the-docs {
   color: #888;
 }
+
+.users,
+.posts {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.todos {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.user,
+.post {
+  width: 300px;
+  box-shadow: 3px 3px 15px 0 rgba(0, 0, 0, 0.4);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.user {
+  height: 300px;
+}
+
+.post {
+  height: 400px;
+}
