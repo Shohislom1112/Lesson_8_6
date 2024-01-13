@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-// import AddTodos from "./AddTodos";
 
 const Album = () => {
   const [album, setAlbums] = useState([]);
@@ -19,10 +18,9 @@ const Album = () => {
 
   return (
     <div>
-      {/* <AddTodos fetchData={fetchData} /> */}
       <ul>
-        {album.map((ab) => (
-          <li key={ab.id}>{ab.title}</li>
+        {album.map((album) => (
+          <li key={album.id}>{album.title}</li>
         ))}
       </ul>
     </div>

@@ -19,7 +19,6 @@ const Posts = () => {
 
   return (
     <div>
-      {/* <AddPost fetchData={fetchData} /> */}
       <ul>
         {posts.map((post) => (
           <li key={post.id}>{post.title}</li>

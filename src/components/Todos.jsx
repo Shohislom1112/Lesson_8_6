@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-// import AddTodos from "./AddTodos";
 
 const Todos = () => {
   const [todos, setTodos] = useState([]);
@@ -19,7 +18,6 @@ const Todos = () => {
 
   return (
     <div>
-      {/* <AddTodos fetchData={fetchData} /> */}
       <ul>
         {todos.map((td) => (
           <li key={td.id}>{td.title}</li>

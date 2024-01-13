@@ -60,24 +60,12 @@ const Users = () => {
       <div className="users">
         {users.map((user) => (
           <div key={user.id} className="user">
-            <h2 className="id">{user.id}</h2>
-            <h2 className="name">{user.name}</h2>
-            <h2 className="h2">
-              {" "}
-              Email: <li className="ll">{user.email}</li>
-            </h2>
-            <h2 className="h2">
-              {" "}
-              Website: <li className="ll">{user.website}</li>
-            </h2>
-            <h2 className="h2">
-              {" "}
-              Eddres: <li className="ll">{user.address}</li>
-            </h2>
-            <h2 className="h2">
-              {" "}
-              Phone: <li className="ll">{user.phone}</li>
-            </h2>
+            <h2>{user.id}</h2>
+            <h2>{user.name}</h2>
+            <h2> {user.email}</h2>
+            <h2> {user.website}</h2>
+            <h2> {user.address}</h2>
+            <h2> {user.phone}</h2>
             <div className="ss">
               <button onClick={() => getUserPosts(user.id)} className="but">
                 Posts
@@ -99,7 +87,6 @@ const Users = () => {
             <h2>{post.userId}</h2>
             <h2>{post.title}</h2>
             <p>{post.body}</p>
-            {/* <button onClick={() => getUserPosts(user.id)}>Posts</button> */}
           </div>
         ))}
       </div>
@@ -109,7 +96,6 @@ const Users = () => {
             <h2>{todos.userId}</h2>
             <h2>{todos.title}</h2>
             <p>{todos.complete}</p>
-            {/* <button onClick={() => getUserPosts(user.id)}>Posts</button> */}
           </div>
         ))}
       </div>
@@ -118,7 +104,6 @@ const Users = () => {
           <div key={albums.id} className="albums">
             <h2>{albums.userId}</h2>
             <h2>{albums.title}</h2>
-            {/* <button onClick={() => getUserTodos(user.id)}>Todos</button> */}
           </div>
         ))}
       </div>

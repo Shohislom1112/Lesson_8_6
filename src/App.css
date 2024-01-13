@@ -73,18 +73,7 @@
   justify-content: space-between;
   gap: 5px;
 }
-.id {
-  font-size: 25px;
-}
-.name {
-  font-size: 13px;
-}
-.h2 {
-  color: black;
-}
-.ll {
-  color: blue;
-}
+
 .user,
 .post {
   width: 300px;
